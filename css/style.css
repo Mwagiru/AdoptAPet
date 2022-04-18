@@ -1,25 +1,55 @@
 * {
     margin: 0;
     padding: 0;
+}
+main {
     background-color: black;
 }
 section {
-    width: 60%;
+    width: 70vw;
     height: 100vh;
     padding: 10px;
     margin: auto;
     border-radius: 10%;
     margin-top: 10px
 }
-.nav {
-    background-color: blue;
+#nav {
+    background-color: white;
+
 }
-.info {
+.navbar {
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+    height: 15%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    position: relative;
+    line-height: 50%;
+    position: relative;
+} 
+li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 34px;
+    line-height: 3em;
+}
+
+#info {
     background-color: blueviolet;
 }
-.dogs {
+#dogs {
     background-color: bisque;
 }
-.form {
+#form {
     background-color: aqua;
 }
