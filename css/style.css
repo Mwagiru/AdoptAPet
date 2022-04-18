@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+section {
+    width: 60%;
+    height: 100vh;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10%;
+    margin-top: 10px
+}
+.nav {
+    background-color: blue;
+}
+.info {
+    background-color: blueviolet;
+}
+.dogs {
+    background-color: bisque;
+}
+.form {
+    background-color: aqua;
+}
