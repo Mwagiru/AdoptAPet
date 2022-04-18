@@ -10,7 +10,6 @@ section {
     height: 100vh;
     padding: 10px;
     margin: auto;
-    border-radius: 10%;
     margin-top: 10px
 }
 #nav {
@@ -20,20 +19,25 @@ section {
 .navbar {
     padding: 10px;
     margin: auto;
-    width: 80%;
+    width: 85%;
     height: 15%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
-ul {
+#nav h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+.navbar ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     list-style-type: none;
     position: relative;
     line-height: 50%;
-    position: relative;
+    background-color: black;
+    position: fixed;
 } 
 li a {
     text-decoration: none;
@@ -43,9 +47,31 @@ li a {
     font-size: 34px;
     line-height: 3em;
 }
-
+li a:hover {
+    text-shadow: 5px 5px 5px white;
+    color:black;
+    background-color: white;
+}
+.content {
+    padding-right: 5px;
+}
+.content li {
+    line-height: 1.5em;
+}
+.img-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;   
+}
+img {
+    background-size: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 #info {
-    background-color: blueviolet;
+    background-color: white;
 }
 #dogs {
     background-color: bisque;
