@@ -1,5 +1,5 @@
-document.getElementById("name");
-let btn = document.getElementById("btn");
+/*document.getElementById("name");
+let btn = document.getElementById("btn");*/
 let randomFacts = 
 ["The SMELL center of a dog's brain is 40 times larger tahn yours.",
 "Dogs' ears are pretty impressive",
@@ -38,7 +38,7 @@ let randomFacts =
 "The oldest dog lived to be 29"
 ];
 const changeFact = () =>{
-    let randFact=Math.floor(Math.random()*randomFacts.length);
-    fact.innerHTML = randomFacts[randFact];
+    let randFact=Math.floor(Math.random()*(randomFacts.length));
+    document.getElementById("display").innerHTML=randomFacts[randFact]
 }
-btn.addEventListener('click',changeFact);
+//btn.addEventListener('click',changeFact);

@@ -72,19 +72,20 @@ img {
 #info {
     background-color: white;
 }
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content:space-around;
-    padding-left: 5em;
-    padding-top: 15em;
-    align-items: center;
+#info h1 {
+    text-align: center;
+}
+#display {
+    height: 40%;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30%;
+    font-size: 2em;
 }
 button {
-    border: 3px solid black;
-    border-radius: 50%;
-    font-size: 2.5em;
-    width: 45%
+    margin-top: 10px;
+    font-size: 2em;
+    align-items: center;
 }
 #dogs {
     background-color: bisque;
